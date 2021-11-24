@@ -52,7 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				6C7CF29B274EA0650035C524 /* MoodDiaryApp.swift */,
-				6C7CF29D274EA0650035C524 /* ContentView.swift */,
+				6C7CF2AA274EA08C0035C524 /* Model */,
+				6C7CF2A9274EA0820035C524 /* Views */,
 				6C7CF29F274EA06B0035C524 /* Assets.xcassets */,
 				6C7CF2A1274EA06B0035C524 /* Preview Content */,
 			);
@@ -65,6 +66,21 @@
 				6C7CF2A2274EA06B0035C524 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6C7CF2A9274EA0820035C524 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6C7CF29D274EA0650035C524 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6C7CF2AA274EA08C0035C524 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
