@@ -22,8 +22,8 @@ struct MainView: View {
                     
                     ForEach(1...5, id: \.self) { i in
                         ZStack {
-                            Circle()
-                                .fill(Color.blue.opacity(0.3))
+                            Image("Circle")
+                                .resizable()
                                 .frame(width: 50, height: 50)
                             Text("\(i + 5 * r)")
                         }
