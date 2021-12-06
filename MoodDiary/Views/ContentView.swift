@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    var date = 0
-    
     var body: some View {
         VStack {
             Spacer()
@@ -19,14 +17,14 @@ struct ContentView: View {
             Text("November")
                 .bold()
             Spacer()
-            ForEach([0, 5, 10, 15, 20, 25], id: \.self) { r in
+            ForEach(0...5, id: \.self) { r in
                 HStack {
                     ForEach(1...5, id: \.self) { i in
                         ZStack {
                             Circle()
                                 .fill(Color.blue.opacity(0.3))
                                 .frame(width: 50, height: 50)
-                            Text("\(i + r)")
+                            Text("\(i + 5 * r)")
                         }
                     }
                 }
