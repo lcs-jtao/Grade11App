@@ -10,9 +10,7 @@ import SwiftUI
 struct EmotionButton: View {
     let imageName: String
     var body: some View {
-        Button(action: {
-            print("HI")
-        }, label: {
+        NavigationLink(destination: DiaryView(), label: {
             Image(imageName)
                 .resizable()
                 .frame(width: 70, height: 70)

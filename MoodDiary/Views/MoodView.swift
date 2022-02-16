@@ -41,6 +41,8 @@ struct MoodView: View {
 
 struct MoodView_Previews: PreviewProvider {
     static var previews: some View {
-        MoodView()
+        NavigationView {
+            MoodView()
+        }
     }
 }
