@@ -42,6 +42,7 @@
 			isa = PBXGroup;
 			children = (
 				6C7BEA0B27BD5A9B00C95AFC /* EmotionButton.swift */,
+				6C7BEA0D27BD5B8800C95AFC /* DiaryView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -88,7 +89,6 @@
 			children = (
 				6C7CF29D274EA0650035C524 /* MainView.swift */,
 				6C7196E9275EB46100D74C25 /* MoodView.swift */,
-				6C7BEA0D27BD5B8800C95AFC /* DiaryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
