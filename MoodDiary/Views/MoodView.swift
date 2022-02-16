@@ -12,21 +12,13 @@ struct MoodView: View {
         VStack {
             Spacer()
             HStack {
-                Image("Happy")
-                    .resizable()
-                    .frame(width: 70, height: 70)
-                Image("Calm")
-                    .resizable()
-                    .frame(width: 70, height: 70)
+                EmotionButton(imageName: "Happy")
+                EmotionButton(imageName: "Calm")
             }
             HStack {
                 VStack {
-                    Image("Sad")
-                        .resizable()
-                        .frame(width: 70, height: 70)
-                    Image("Exhausted")
-                        .resizable()
-                        .frame(width: 70, height: 70)
+                    EmotionButton(imageName: "Sad")
+                    EmotionButton(imageName: "Exhausted")
                 }
                 Text("How do you feel today?")
                     .bold()
@@ -34,21 +26,13 @@ struct MoodView: View {
                     .shadow(color: Color.blue, radius: 15, x: 5, y: 5)
                     .foregroundColor(Color.gray)
                 VStack {
-                    Image("Speechless")
-                        .resizable()
-                        .frame(width: 70, height: 70)
-                    Image("Mad")
-                        .resizable()
-                        .frame(width: 70, height: 70)
+                    EmotionButton(imageName: "Speechless")
+                    EmotionButton(imageName: "Mad")
                 }
             }
             HStack {
-                Image("Great")
-                    .resizable()
-                    .frame(width: 70, height: 70)
-                Image("Depressed")
-                    .resizable()
-                    .frame(width: 70, height: 70)
+                EmotionButton(imageName: "Great")
+                EmotionButton(imageName: "Depressed")
             }
             Spacer()
         }

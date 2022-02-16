@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6C7196EA275EB46100D74C25 /* MoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7196E9275EB46100D74C25 /* MoodView.swift */; };
+		6C7BEA0C27BD5A9B00C95AFC /* EmotionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7BEA0B27BD5A9B00C95AFC /* EmotionButton.swift */; };
 		6C7CF29C274EA0650035C524 /* MoodDiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CF29B274EA0650035C524 /* MoodDiaryApp.swift */; };
 		6C7CF29E274EA0650035C524 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CF29D274EA0650035C524 /* MainView.swift */; };
 		6C7CF2A0274EA06B0035C524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C7CF29F274EA06B0035C524 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		6C7196E9275EB46100D74C25 /* MoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodView.swift; sourceTree = "<group>"; };
+		6C7BEA0B27BD5A9B00C95AFC /* EmotionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionButton.swift; sourceTree = "<group>"; };
 		6C7CF298274EA0650035C524 /* MoodDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C7CF29B274EA0650035C524 /* MoodDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodDiaryApp.swift; sourceTree = "<group>"; };
 		6C7CF29D274EA0650035C524 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		6C7CF2AA274EA08C0035C524 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6C7BEA0B27BD5A9B00C95AFC /* EmotionButton.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C7CF29E274EA0650035C524 /* MainView.swift in Sources */,
+				6C7BEA0C27BD5A9B00C95AFC /* EmotionButton.swift in Sources */,
 				6C7196EA275EB46100D74C25 /* MoodView.swift in Sources */,
 				6C7CF29C274EA0650035C524 /* MoodDiaryApp.swift in Sources */,
 			);
