@@ -11,7 +11,18 @@ import SwiftUI
 struct MoodDiaryApp: App {
     var body: some Scene {
         WindowGroup {
-            MoodView()
+            TabView {
+                MainView()
+                    .tabItem({
+                        Image(systemName: "calendar")
+                        Text("Calendar")
+                    })
+                MoodView()
+                    .tabItem({
+                        Image(systemName: "face.dashed")
+                        Text("Mood")
+                    })
+            }
         }
     }
 }
