@@ -29,6 +29,7 @@ struct DiaryView: View {
                         .foregroundColor(Color.black.opacity(0.6))
                     TextField("Tell us about your day!", text: $inputText)
                 }
+                .padding()
             }
             Spacer()
         }
