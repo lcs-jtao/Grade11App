@@ -11,9 +11,11 @@ struct DiaryView: View {
     
     @State var inputText = ""
     @State var mood: String
+    @State var entries: [DiaryEntry] = []
     
     var body: some View {
         VStack {
+            DatePicker("Date", selection: .constant(Date()), displayedComponents: .date)
             ZStack {
                 Rectangle()
                     .strokeBorder()
@@ -31,6 +33,16 @@ struct DiaryView: View {
                 }
                 .padding()
             }
+            Button(action: {
+                entries.append(DiaryEntry(details: inputText))
+                inputText = ""
+            }, label: {
+                Text("Save Diary")
+            })
+                .buttonStyle(.bordered)
+                .background(Color.gray)
+                .foregroundColor(.white)
+                .clipShape(Capsule())
             Spacer()
         }
         .padding()
